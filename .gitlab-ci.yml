@@ -7,9 +7,9 @@
 # dependencies will have already been baked into the base image.
 
 # Which version of the base-container-image pipeline to use
-include:
-  - project: relaxdiego/cicd-library
-    file: pipelines/base-container-image/v1.yml
+# include:
+#   - project: relaxdiego/cicd-library
+#     file: pipelines/base-container-image/v1.yml
 
 variables:
   # The name of the base container image. DO NOT add a
@@ -31,3 +31,9 @@ variables:
   # already be configured to access the chat provider and must also
   # have access to this channel.
   notify_channel: sample-base-container-builds
+
+build image:
+  script: echo "Building the container image"
+
+publish image:
+  script: echo "Publishing image"
