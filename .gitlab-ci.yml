@@ -8,7 +8,7 @@
 
 # Which version of the base-container-image pipeline to use
 include:
-  - project: cicd/library
+  - project: relaxdiego/cicd-library
     file: pipelines/base-container-image/v1.yml
 
 variables:
