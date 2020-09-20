@@ -25,9 +25,3 @@ variables:
   # Note that the underlying CI/CD cluster must already have access
   # to this registry
   image_registry: docker.io/relaxdiego
-
-  # Which channel in the underlying chat provider will the pipeline
-  # push notifications? Note that the underlying CI/CD cluster must
-  # already be configured to access the chat provider and must also
-  # have access to this channel.
-  notify_channel: sample-base-container-builds
