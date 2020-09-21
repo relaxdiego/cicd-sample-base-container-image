@@ -24,4 +24,4 @@ variables:
   # Where will the base image be pushed after it's built succesfully?
   # Note that the underlying CI/CD cluster must already have access
   # to this registry
-  image_registry: docker.io/relaxdiego
+  image_registry: relaxdiego
